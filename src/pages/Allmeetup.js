@@ -22,6 +22,8 @@ const DUMMY_DATA = [
   ];
 
 function Allmeetuppages(){
+  fetch('https://learn-database-af336-default-rtdb.asia-southeast1.firebasedatabase.app/', {}
+  ).then(response => {});
    return (
    <section>
         <h1>All Meetup</h1>
